@@ -21,8 +21,10 @@ def main():
         print("You got a D")
     elif(grade > 100):
         print("Not possible, nice try")
-    else:
+    elif(grade < 60):
         print("You Failed")
+    else:
+        print("Invalid input")
 
 if __name__ == "__main__":
     main()
